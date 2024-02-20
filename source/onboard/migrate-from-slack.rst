@@ -188,4 +188,4 @@ Use the imported team
 * During the import process, the emails and usernames from Slack are used to create new Mattermost accounts. If emails are not present in the Slack export archive, then placeholder values will be generated and the system admin will need to update these manually. We recommend administrators search the final import ``jsonl`` file for ``user`` lines for with ``@example.com`` in the email property to address and resolve the missing information prior to import.
 * Slack users can activate their new Mattermost accounts by using Mattermost's **Password Reset** screen with their email addresses from Slack to set new passwords for their Mattermost accounts.
 * Once logged in, Mattermost users will have access to previous Slack messages in the public channels imported from Slack.
-* Instructions on how to migrate user authenticatation to LDAP or SAML can be found `here <https://docs.mattermost.com/manage/mmctl-command-line-tool.html#mmctl-user-migrate-auth>`__.
+* Instructions on how to migrate user authentication to LDAP or SAML can be found `here <https://docs.mattermost.com/manage/mmctl-command-line-tool.html#mmctl-user-migrate-auth>`__.
